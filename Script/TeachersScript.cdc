@@ -1,4 +1,4 @@
-import SchoolTeachers from 0xYOUR_SCHOOL_TEACHERS_CONTRACT_ADDRESS
+import SchoolTeachers from 0x05
 
 pub fun main(employeeID: String): SchoolTeachers.TeacherDetails? {
     return SchoolTeachers.getTeacherDetails(employeeID)
